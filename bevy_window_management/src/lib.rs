@@ -51,7 +51,8 @@ fn window_management_resource_updated(
         for window in windows.windows.iter() {
             window.1.set_window_icon(icon.clone())
         }
-        #[cfg(feature = "taskbar")]
+        // currently only windows is supported
+        #[cfg(all(feature = "taskbar", target_os = "windows"))]
         if window_management.is_changed() {
             {
                 if let Some(progress) = &window_management.taskbar_progress {

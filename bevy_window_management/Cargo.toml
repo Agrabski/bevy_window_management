@@ -14,5 +14,7 @@ default = ["taskbar"]
 
 [dependencies]
 bevy = "0.11.0"
-winsafe = { version = "0.0.19", optional = true, features = ["shell"] }
 winit = "0.28.7"
+
+[target.'cfg(windows)'.dependencies]
+winsafe = { version = "0.0.19", optional = true, features = ["shell"] }
