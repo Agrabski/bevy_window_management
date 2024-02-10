@@ -4,8 +4,11 @@ use ::winit::platform::windows::WindowExtWindows;
 use bevy::prelude::*;
 use bevy::winit::WinitWindows;
 use bevy::{app::Plugin, ecs::system::Resource};
+#[cfg(target_os = "windows")]
 use w::prelude::{shell_ITaskbarList3, Handle};
+#[cfg(target_os = "windows")]
 use w::{ITaskbarList4, HWND};
+#[cfg(target_os = "windows")]
 use winsafe::{self as w, co};
 
 pub struct WindowManagementPlugin;
