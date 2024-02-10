@@ -5,7 +5,7 @@ edition = "2021"
 authors = ["Adam Grabski"]
 description = "A library for managing window icon and taskbar progress indicator in Bevy"
 license = "MIT"
-readme = "../README.md"
+readme = "../Readme.md"
 [lib]
 
 
