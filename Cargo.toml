@@ -1,4 +1,4 @@
 [workspace]
 
-members = ["bevy_window_management"]
+members = ["bevy_window_management", "bevy_window_management_tester"]
 resolver = "2"
