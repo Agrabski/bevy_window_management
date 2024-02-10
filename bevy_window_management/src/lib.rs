@@ -1,5 +1,6 @@
 use std::os::raw::c_void;
 
+#[cfg(target_os = "windows")]
 use ::winit::platform::windows::WindowExtWindows;
 use bevy::prelude::*;
 use bevy::winit::WinitWindows;

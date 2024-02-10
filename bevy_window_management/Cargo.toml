@@ -13,7 +13,7 @@ taskbar = ["dep:winsafe"]
 default = ["taskbar"]
 
 [dependencies]
-bevy = "0.11.0"
+bevy = "0.11.3"
 winit = "0.28.7"
 
 [target.'cfg(windows)'.dependencies]
