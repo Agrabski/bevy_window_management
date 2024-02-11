@@ -4,6 +4,8 @@ A simple crate that allows you to set the window icon and taskbar progress indic
 
 Currently it is only compatible with Bevy 0.11.3
 
+Modyfing taskbar progress indicator is only supported on windows and requires the `taskbar feature`
+
 Example usage:
 ```rs
 use bevy::{
