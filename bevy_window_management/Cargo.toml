@@ -1,11 +1,12 @@
 [package]
 name = "bevy_window_management"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["Adam Grabski"]
 description = "A library for managing window icon and taskbar progress indicator in Bevy"
 license = "MIT"
 readme = "../Readme.md"
+repository = "https://github.com/Agrabski/bevy_window_management"
 [lib]
 
 
